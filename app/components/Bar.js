@@ -4,8 +4,8 @@ var styles = require('../styles');
 var Bar = React.createClass({
   render: function () {
     return (
-      <div styles={styles.progress}>
-        <div styles={styles.bar}></div>
+      <div id="progress" style={styles.progress}>
+        <div id="bar" style={styles.bar}></div>
       </div>
     )
   }
